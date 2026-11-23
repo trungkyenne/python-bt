@@ -1,0 +1,5 @@
+# Chuan hoa ho ten (viet hoa chu cai dau moi tu, mot khoang trang o giua)
+s = input("Nhap ho va ten can chuan hoa: ")
+cac_tu = s.split()
+chuan_hoa = " ".join(tu.capitalize() for tu in cac_tu)
+print(f"Ho ten sau khi chuan hoa: {chuan_hoa}")
